@@ -1,13 +1,8 @@
-import React from 'react';
-import '.style.css';
+import react from 'react';
+import { render } from 'react-dom';
+import SearchParams from "./SearchParams";
 
-const Pet = () => {
-  return React.createElement("div", {}, [
-    React.createElement("h1", {}, "Boo"),
-    React.createElement("h2", {}, "Dog"),
-    React.createElement("h2", {}, "Doxie"),
-  ]);
-};
+import '.style.css';
 
 const App = () => {
   return (
