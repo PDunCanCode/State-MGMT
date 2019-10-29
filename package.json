@@ -10,6 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "parcel src/index.html",
+    "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "format": "prettier \"src/**/*.{js, html}\" --write",
