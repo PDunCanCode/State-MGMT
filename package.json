@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@reach/router": "^1.2.1",
+    "@emotion/babel-preset-css-prop": "^10.0.23",
+    "@emotion/core": "^10.0.22",
     "@frontendmasters/pet": "^1.0.3",
+    "@reach/router": "^1.2.1",
     "reach-router": "^0.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",

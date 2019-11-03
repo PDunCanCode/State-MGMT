@@ -30,8 +30,11 @@ const SearchParams = () => {
 
     pet.breeds(animal).then(({ breeds }) => {
       const breedStrings = breeds.map(({ name }) => name);
+      // eslint-disable-next-line
       updateBreeds(breedStrings);
+      // eslint-disable-next-line
     }, console.error);
+    // eslint-disable-next-line
   }, [animal]);
 
   return (
